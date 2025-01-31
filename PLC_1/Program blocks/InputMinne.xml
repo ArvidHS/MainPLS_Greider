@@ -77,7 +77,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="29">
       <Symbol>
-        <Component Name="Bryter_S5_Ved_HMI_I" />
+        <Component Name="Bryter_Main_Skap_12cm" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="30">

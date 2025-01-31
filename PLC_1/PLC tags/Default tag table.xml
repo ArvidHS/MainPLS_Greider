@@ -200,7 +200,7 @@
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
           <LogicalAddress>%I0.4</LogicalAddress>
-          <Name>Bryter_S5_Ved_HMI_I</Name>
+          <Name>Bryter_Main_Skap_12cm</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="20" CompositionName="Comment">
@@ -2619,6 +2619,101 @@
           <MultilingualText ID="19D" CompositionName="Comment">
             <ObjectList>
               <MultilingualTextItem ID="19E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="19F" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q6.3</LogicalAddress>
+          <Name>Tag_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A0" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1A1" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1A2" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M61.0</LogicalAddress>
+          <Name>12cm_pall_på_plass</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A3" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1A4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1A5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M61.1</LogicalAddress>
+          <Name>C5_retur_set</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1A7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1A8" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I6.4</LogicalAddress>
+          <Name>Bekreftet_levering_12cm_pall_fra_servo</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1AA" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1AB" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M61.2</LogicalAddress>
+          <Name>Vent_ny_pall_12cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1AC" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1AD" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
